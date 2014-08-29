@@ -1,4 +1,4 @@
-lightmatter.github.com
+Sarah and James' Wedding Website!
 ======================
 
-LM Website
+Our Wedding Website!
