@@ -1,0 +1,117 @@
+body, html {
+  background: #000;
+  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 30, color-stop(33.33333%, #00ffff), color-stop(100%, #1e90ff));
+  background-image: -webkit-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+  background-image: -moz-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+  background-image: -o-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+  background-image: radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+}
+
+div.container {
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  display: none;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  height: 70px;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+section#one {
+  background: url('../img/one.jpg?1409335822');
+  background-size: cover;
+  background-position: bottom;
+}
+section#one div.logo {
+  width: 20px;
+  font-family: "Grand Hotel", cursive;
+  font-size: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+  color: #fff;
+  padding: 20px 20px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  opacity: 0.9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+}
+section#one h1 {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  opacity: 0.9;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-family: "Raleway", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+section#one h1 span {
+  display: block;
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+section#one h2 {
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  padding: 0 10px;
+  overflow: hidden;
+}
+section#one h2 span {
+  color: #ff7e93;
+}
+section#one h2:before, section#one h2:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 48%;
+  height: 1px;
+  content: '\a0';
+  background-color: #fff;
+}
+section#one h2:before {
+  margin-left: -50%;
+  text-align: right;
+}
+section#one h2:after {
+  margin-left: 2%;
+}
