@@ -1,10 +1,5 @@
 body, html {
   background: #000;
-  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 30, color-stop(33.33333%, #00ffff), color-stop(100%, #1e90ff));
-  background-image: -webkit-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
-  background-image: -moz-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
-  background-image: -o-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
-  background-image: radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
 }
 
 div.container {
@@ -207,14 +202,6 @@ section#slide-1 h2:after {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#three {
-  background: red;
-}
-
-#four {
-  background: blue;
 }
 
 .bcg {
