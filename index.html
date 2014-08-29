@@ -39,7 +39,7 @@
 <body>
   <section id='one'>
     <div class='container'>
-      <div class='logo'>S+J</div>
+      <div class='logo'>S<span>+</span>J</div>
       <h2>05&bull;30&bull;2015</h2>
       <h1>Sarah <span>&amp;</span> James</h1>
       <h2>ST HELENA &bull; <span>NAPA VALLEY</span></h2>
@@ -48,5 +48,22 @@
 </body>
 <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type='text/javascript'>
+$(function() {
+    $(".logo").animate({
+      opacity: 1,
+      marginTop: 40
+      }, 1200).promise().done(function() {
+        $(".logo").addClass("spinner");
+        
+      });
+    $("#one h1").animate({
+        opacity: 1,
+      marginTop: 0
+      }, 1200);
+
+    $("#one h2").animate({
+        opacity: 1
+      }, 2000);
+});
 </script>
 </html>
