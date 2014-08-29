@@ -52,9 +52,6 @@ header {
 }
 
 section {
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
   width: 100%;
 }
@@ -74,16 +71,27 @@ section {
   animation-timing-function: linear;
 }
 
-section#one {
-  background: image-url("one.jpg");
-  background-size: cover;
-  background-position: bottom;
+.background {
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+section#slide-1 {
   overflow: hidden;
+
+
+  .bcg {
+    padding-top: 40px;
+  }
 
   div.logo {
     width: 20px;
     font-family: "Grand Hotel", cursive;
-    margin: 40px auto;
+    margin: 0px auto 40px;
     margin-top: -300px;
     font-size: 20px;
     @include border-radius(100px);
@@ -126,7 +134,7 @@ section#one {
     @include text-shadow(rgba(0,0,0,0.8) 1px 1px);
     font-size: 100px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 800px;
     padding-top: 30px;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
@@ -137,7 +145,6 @@ section#one {
     font-family: $greatvibes;
     font-weight: 100;
     margin-bottom: 50px;
-    margin-top: 600px;
 
     span {
       display: block;
@@ -187,3 +194,63 @@ section#one {
     }
   }
 }
+
+#two {
+
+  .background {
+    background: image-url('two.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+#three {
+  background: red;
+}
+
+#four {
+  background: blue;
+}
+
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/one.jpg')}
+#slide-1 .hsContent {
+	bottom: 200px;
+	top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../img/two.jpg')}
+#slide-2 .hsContent {
+	margin-left: -450px;
+	bottom: 200px;
+	top: auto;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('http://2.bp.blogspot.com/_oZCDg_eWLx8/TJ4uMeBIM4I/AAAAAAAAArM/fEemAUpZt4Y/s1600/Spring+Mountain+Vineyards+Elivette+2004+a.JPG')}
+#slide-3 .hsContent {
+	margin-left: -239px;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('http://sommerdish.com/wp-content/uploads/2013/06/20130608_150314.jpg')}
+#slide-4 .hsContent {
+	margin-left: -450px;
+}
+	#slide-4 h2 {
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
