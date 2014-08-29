@@ -3,6 +3,7 @@
 $greatvibes: 'Great Vibes', cursive;
 $raleway: 'Raleway', sans-serif;
 $grandhotel: 'Grand Hotel', cursive;
+$poiret: 'Poiret One', cursive;
 
 @mixin placeholder($color) {
   &:-moz-placeholder { color: $color;}
@@ -160,7 +161,7 @@ section#slide-1 {
   h2 {
     opacity: 0;
     @include text-shadow(rgba(0,0,0,0.8) 1px 1px);
-    font-family: $raleway;
+    font-family: $poiret;
     font-weight: 400;
     font-size: 28px;
     position: relative;
