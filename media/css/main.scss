@@ -195,13 +195,69 @@ section#slide-1 {
   }
 }
 
-#two {
+section#slide-2 {
 
   .background {
     background: image-url('two.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  h2 {
+    color: #fff;
+    @include text-shadow(rgba(0,0,0,0.6) 1px 1px);
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: $greatvibes;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+
+  div.item {
+    width: 385px;
+    height: 150px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.4);
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 35px;
+      color: #5E0F0F;
+      font-family: $poiret;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-left: 0;
+
+      li {
+        font-family: $grandhotel;
+        font-size: 25px;
+        text-align: center;
+        line-height: 180%;
+        color: #212121;
+      }
+    }
+
+  }
+
+  .small {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    &:nth-child(2) {
+      margin-left: 0;
+    }
+  }
+
+  div.big {
+    clear:both;
+    width: 880px;
   }
 }
 

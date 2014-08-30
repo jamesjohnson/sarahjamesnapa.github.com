@@ -197,11 +197,58 @@ section#slide-1 h2:after {
   margin-left: 2%;
 }
 
-#two .background {
+section#slide-2 .background {
   background: url('../img/two.jpg?1409344084');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+section#slide-2 h2 {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+section#slide-2 div.item {
+  width: 385px;
+  height: 150px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.4);
+}
+section#slide-2 div.item h3 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #5E0F0F;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+section#slide-2 div.item ul {
+  margin-left: 0;
+}
+section#slide-2 div.item ul li {
+  font-family: "Grand Hotel", cursive;
+  font-size: 25px;
+  text-align: center;
+  line-height: 180%;
+  color: #212121;
+}
+section#slide-2 .small {
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+section#slide-2 .small:nth-child(2) {
+  margin-left: 0;
+}
+section#slide-2 div.big {
+  clear: both;
+  width: 880px;
 }
 
 .bcg {
