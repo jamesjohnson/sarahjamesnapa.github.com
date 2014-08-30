@@ -232,11 +232,15 @@ section#slide-2 div.item ul {
   margin-left: 0;
 }
 section#slide-2 div.item ul li {
-  font-family: "Grand Hotel", cursive;
-  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
   text-align: center;
   line-height: 180%;
-  color: #212121;
+  color: #3a3a3a;
+}
+section#slide-2 div.item ul li a {
+  color: #000;
+  text-decoration: none;
 }
 section#slide-2 .small {
   float: left;
@@ -249,6 +253,59 @@ section#slide-2 .small:nth-child(2) {
 section#slide-2 div.big {
   clear: both;
   width: 880px;
+}
+
+#slide-3 h2 {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+#slide-3 div.left {
+  width: 40%;
+  height: 400px;
+  padding: 40px;
+  float: left;
+  margin-right: 40px;
+  background: rgba(255, 255, 255, 0.8);
+}
+#slide-3 div.left div.hotel {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+#slide-3 div.left div.hotel h3 {
+  font-family: "Poiret One", cursive;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #5E0F0F;
+  padding-bottom: 5px;
+}
+#slide-3 div.left div.hotel h5 {
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #aaa;
+}
+#slide-3 div.left div.hotel p a {
+  color: #000;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#slide-3 div.right {
+  width: 39%;
+  padding: 40px;
+  height: 400px;
+  float: left;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .bcg {

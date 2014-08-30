@@ -235,11 +235,16 @@ section#slide-2 {
       margin-left: 0;
 
       li {
-        font-family: $grandhotel;
-        font-size: 25px;
+        font-family: $raleway;
+        font-size: 17px;
         text-align: center;
         line-height: 180%;
-        color: #212121;
+        color: #3a3a3a;
+
+        a {
+          color: #000;
+          text-decoration: none;
+        }
       }
     }
 
@@ -261,7 +266,68 @@ section#slide-2 {
   }
 }
 
-#three {
+#slide-3 {
+
+  h2 {
+    color: #fff;
+    @include text-shadow(rgba(0,0,0,0.6) 1px 1px);
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: $greatvibes;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+
+  div.left {
+    width: 40%;
+    height: 400px;
+    padding: 40px;
+    float: left;
+    margin-right: 40px;
+    background: rgba(255, 255, 255, 0.8);
+
+    div.hotel {
+      width: 100%;
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+      padding: 15px;
+
+      h3 {
+        font-family: $poiret;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #5E0F0F;
+        padding-bottom: 5px;
+      }
+
+      h5 {
+        font-size: 15px;
+        padding-bottom: 5px;
+        font-family: $raleway;
+        font-weight: 100;
+        color: #aaa;
+      }
+
+      p {
+        a {
+          color: #000;
+          font-size: 12px;
+          font-family: $raleway;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div.right {
+    width: 39%;
+    padding: 40px;
+    height: 400px;
+    float: left;
+    background: rgba(255, 255, 255, 0.4);
+  }
 }
 
 #four {
