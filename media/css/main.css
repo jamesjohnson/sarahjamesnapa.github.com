@@ -198,7 +198,7 @@ section#slide-1 h2:after {
 }
 
 section#slide-2 .background {
-  background: url('../img/two.jpg?1409344084');
+  background: url('../img/two.jpg?1409509356');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,6 +273,7 @@ section#slide-2 div.big {
   float: left;
   margin-right: 40px;
   background: rgba(255, 255, 255, 0.8);
+  overflow: scroll;
 }
 #slide-3 div.left div.hotel {
   width: 100%;
@@ -285,6 +286,13 @@ section#slide-2 div.big {
   text-transform: uppercase;
   color: #5E0F0F;
   padding-bottom: 5px;
+}
+#slide-3 div.left div.hotel h3 a {
+  color: #5E0F0F;
+  text-decoration: none;
+}
+#slide-3 div.left div.hotel h3 a:hover {
+  color: #FFC201;
 }
 #slide-3 div.left div.hotel h5 {
   font-size: 15px;

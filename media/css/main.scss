@@ -287,6 +287,7 @@ section#slide-2 {
     float: left;
     margin-right: 40px;
     background: rgba(255, 255, 255, 0.8);
+    overflow: scroll;
 
     div.hotel {
       width: 100%;
@@ -299,6 +300,15 @@ section#slide-2 {
         text-transform: uppercase;
         color: #5E0F0F;
         padding-bottom: 5px;
+
+        a {
+          color: #5E0F0F;
+          text-decoration: none;
+
+          &:hover {
+            color: #FFC201;
+          }
+        }
       }
 
       h5 {
