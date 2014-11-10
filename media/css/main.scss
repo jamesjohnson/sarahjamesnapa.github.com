@@ -162,12 +162,13 @@ section#slide-1 {
   h2 {
     opacity: 0;
     @include text-shadow(rgba(0,0,0,0.8) 1px 1px);
-    font-family: $poiret;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 28px;
     position: relative;
     color: #9cc8bb;
     text-align: center;
+    margin-top: 50px;
     z-index: 1;
     padding: 0 10px;
     overflow: hidden;
@@ -216,6 +217,7 @@ section#slide-2 {
     padding-top: 30px;
     font-size: 40px;
     font-family: $greatvibes;
+    font-family: "Raleway", sans-serif;
     font-weight: 100;
     margin-bottom: 30px;
   }
