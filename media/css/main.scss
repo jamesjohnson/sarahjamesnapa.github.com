@@ -106,6 +106,7 @@ section#slide-1 {
 
     span {
       color: rgb(255, 126, 147);
+      color: #9cc8bb;
     }
 
     &:hover {
@@ -149,7 +150,7 @@ section#slide-1 {
     span {
       display: block;
       font-size: 50px;
-      color: rgb(255, 126, 147);
+      color: #9cc8bb;
       font-family: 'Sacramento', cursive;
       -webkit-transform: rotate(-0deg);
       -moz-transform: rotate(-0deg);
@@ -165,14 +166,13 @@ section#slide-1 {
     font-weight: 400;
     font-size: 28px;
     position: relative;
-    color: #fff;
+    color: #9cc8bb;
     text-align: center;
     z-index: 1;
     padding: 0 10px;
     overflow: hidden;
 
     span {
-      color: rgb(255, 126, 147);
     }
 
     &:before, &:after {
@@ -192,6 +192,10 @@ section#slide-1 {
     &:after {
       margin-left: 2%;
     }
+  }
+
+  .light {
+    color: #fff;
   }
 }
 
@@ -353,7 +357,7 @@ section#slide-2 {
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/one.jpg')}
+#slide-1 .bcg {background-image:url('https://dl-web.dropbox.com/get/Wedding%20Website/441A3888.JPG?_subject_uid=13091809&w=AAATfi6EGPTcIgeg6dvqORLzwaxSFU95vIwJEYjbWGW8eA')}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
