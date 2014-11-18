@@ -1,55 +1,486 @@
-/*
-Syntax error: Invalid CSS after "  }": expected selector or at-rule, was "}"
-        on line 506 of /Users/jamesjohnson/Projects/sarahjamesnapa.github.com/media/css/main.scss
+body, html {
+  background: #000;
+}
 
-Backtrace:
-/Users/jamesjohnson/Projects/sarahjamesnapa.github.com/media/css/main.scss:506
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/scss/parser.rb:1149:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/scss/parser.rb:1085:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/scss/parser.rb:28:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.19/lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.6/bin/compass:44
-/usr/bin/compass:19:in `load'
-/usr/bin/compass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"  }\": expected selector or at-rule, was \"}\"\A         on line 506 of /Users/jamesjohnson/Projects/sarahjamesnapa.github.com/media/css/main.scss"; }
+div.container {
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.8);
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+}
+header ul {
+  margin: 26px 0;
+  display: inline-block;
+  float: left;
+}
+header ul li {
+  padding: 15px 32px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  display: inline;
+  position: relative;
+}
+header ul li a {
+  color: #525252;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header ul li a span {
+  position: absolute;
+  bottom: 0;
+  top: 56px;
+  width: 100%;
+  display: block;
+  height: 5px;
+  background: #9cc8bb;
+  display: none;
+}
+header ul li a:hover {
+  color: #9cc8bb;
+}
+header ul li.active a {
+  color: #000;
+  font-weight: bold;
+}
+header ul li.active a span {
+  display: block;
+}
+header div.logo {
+  width: 17px;
+  font-family: "Grand Hotel", cursive;
+  font-size: 18px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  border: 4px solid #9cc8bb;
+  float: left;
+  color: #000;
+  padding: 17px 17px;
+  display: block;
+  text-align: center;
+  opacity: 0;
+  margin-top: 4px !important;
+}
+header div.logo span {
+  color: #ff7e93;
+  color: #525252;
+}
+header div.logo:hover {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 500ms;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 500ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 500ms;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 500ms;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}
+
+.background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+section#slide-1 {
+  overflow: hidden;
+}
+section#slide-1 .bcg {
+  padding-top: 80px;
+}
+section#slide-1 h1 {
+  opacity: 0;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 800px;
+  padding-top: 30px;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-family: "Raleway", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+section#slide-1 h1 span {
+  display: block;
+  font-size: 50px;
+  color: #9cc8bb;
+  font-family: 'Sacramento', cursive;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+section#slide-1 h2 {
+  opacity: 0;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 1px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  position: relative;
+  color: #9cc8bb;
+  text-align: center;
+  margin-top: 50px;
+  z-index: 1;
+  padding: 0 10px;
+  overflow: hidden;
+}
+section#slide-1 h2:before, section#slide-1 h2:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 48%;
+  height: 1px;
+  content: '\a0';
+  background-color: #fff;
+}
+section#slide-1 h2:before {
+  margin-left: -50%;
+  text-align: right;
+}
+section#slide-1 h2:after {
+  margin-left: 2%;
+}
+section#slide-1 .light {
+  color: #fff;
+}
+
+section#slide-2 .background {
+  background: url('../img/two.jpg?1415568181');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#slide-2 .bcg {
+  padding-top: 90px;
+}
+section#slide-2 div.item {
+  width: 385px;
+  height: 150px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.8);
+}
+section#slide-2 div.item h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #9cc8bb;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+section#slide-2 div.item ul {
+  margin-left: 0;
+}
+section#slide-2 div.item ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  line-height: 180%;
+  color: #fafafa;
+}
+section#slide-2 div.item ul li a {
+  color: #525252;
+  text-decoration: none;
+}
+section#slide-2 .small {
+  float: left;
+  margin-left: 30px;
+}
+section#slide-2 div.big {
+  clear: both;
+  width: 880px;
+}
+
+#slide-3 h2 {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+#slide-3 .bcg {
+  padding-top: 20px;
+}
+#slide-3 div.left {
+  padding: 20px 0px 0;
+  float: left;
+  margin-right: 40px;
+}
+#slide-3 div.left div.hotel {
+  width: 40%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.8);
+  float: left;
+  padding: 20px;
+  margin: 0 15px 15px;
+}
+#slide-3 div.left div.hotel h3 {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #9cc8bb;
+  padding-bottom: 5px;
+}
+#slide-3 div.left div.hotel h3 a {
+  color: #9cc8bb;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline;
+}
+#slide-3 div.left div.hotel h3 a:hover {
+  color: #FFC201;
+}
+#slide-3 div.left div.hotel h3 a span {
+  font-size: 12px;
+  margin-left: 5px;
+  float: right;
+  color: #FFEFD7;
+  vertical-align: middle;
+}
+#slide-3 div.left div.hotel h5 {
+  font-size: 12px;
+  padding-bottom: 0px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  color: #fafafa;
+  margin-bottom: 4px;
+}
+#slide-3 div.left div.hotel p a {
+  color: #5A9168;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#slide-4 .bcg {
+  padding-top: 60px;
+}
+#slide-4 div.box-holder {
+  background: rgba(0, 0, 0, 0.8);
+  height: 400px;
+}
+#slide-4 div.box-holder div.left {
+  width: 230px;
+  float: left;
+  height: 100%;
+  padding: 30px 20px;
+}
+#slide-4 div.box-holder div.left ul {
+  margin: 0;
+}
+#slide-4 div.box-holder div.left ul li {
+  display: block;
+  padding: 20px 10px;
+  font-family: "Poiret One", cursive;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #9cc8bb;
+  position: relative;
+}
+#slide-4 div.box-holder div.left ul li a {
+  color: #9cc8bb;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline;
+}
+#slide-4 div.box-holder div.left ul li a:hover {
+  color: #FFC201;
+}
+#slide-4 div.box-holder div.left ul li a span {
+  height: 100%;
+  width: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+  background: #9cc8bb;
+}
+#slide-4 div.box-holder div.left ul li.active a span {
+  display: block;
+}
+#slide-4 div.box-holder div.right {
+  width: 689px;
+  float: left;
+}
+#slide-4 div.box-holder div.right .dining, #slide-4 div.box-holder div.right .outdoors, #slide-4 div.box-holder div.right .shopping, #slide-4 div.box-holder div.right .transportation {
+  display: none;
+}
+#slide-4 div.box-holder div.right div.padder {
+  padding: 30px 40px;
+}
+#slide-4 div.box-holder div.right div.padder h3 {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #9cc8bb;
+  padding-bottom: 5px;
+}
+#slide-4 div.box-holder div.right div.padder p, #slide-4 div.box-holder div.right div.padder li, #slide-4 div.box-holder div.right div.padder a {
+  font-size: 14px;
+  line-height: 150%;
+  padding-bottom: 0px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  color: #fafafa;
+  margin-bottom: 4px;
+}
+#slide-4 div.box-holder div.right div.padder a {
+  color: #9cc8bb;
+  text-decoration: none;
+}
+#slide-4 div.box-holder div.right div.padder li {
+  margin-lefT: 10px;
+  list-style-type: disc;
+}
+
+#slide-5 .bcg {
+  padding-top: 60px;
+}
+#slide-5 div.box {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {
+  background-image: url("../img/home.jpg");
+}
+
+#slide-1 .hsContent {
+  bottom: 200px;
+  top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {
+  background-image: url("../img/two.jpg");
+}
+
+#slide-2 .hsContent {
+  margin-left: -450px;
+  bottom: 200px;
+  top: auto;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {
+  background-image: url("http://2.bp.blogspot.com/_oZCDg_eWLx8/TJ4uMeBIM4I/AAAAAAAAArM/fEemAUpZt4Y/s1600/Spring+Mountain+Vineyards+Elivette+2004+a.JPG");
+}
+
+#slide-3 .hsContent {
+  margin-left: -239px;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {
+  background-image: url("../img/three.jpg");
+}
+
+#slide-5 .bcg {
+  background-image: url("../img/one.jpg");
+}
