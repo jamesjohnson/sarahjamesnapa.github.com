@@ -432,9 +432,31 @@ section#slide-2 div.big {
 #slide-5 .bcg {
   padding-top: 60px;
 }
-#slide-5 div.box {
-  width: 50%;
+#slide-5 div.box-logos {
+  width: 80%;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
   background: rgba(0, 0, 0, 0.8);
+}
+#slide-5 div.box-logos a div.logo {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+  background-color: #fff;
+}
+#slide-5 div.box-logos a .mc {
+  background: url('../img/../img/mc.jpeg?1416360321');
+  background-size: cover;
+}
+#slide-5 div.box-logos a .wan {
+  background: url('../img/../img/wan.png?1416360305');
+  background-size: cover;
+}
+#slide-5 div.box-logos a .ws {
+  background: url('../img/../img/ws.png?1416360244');
+  background-size: cover;
 }
 
 .bcg {
