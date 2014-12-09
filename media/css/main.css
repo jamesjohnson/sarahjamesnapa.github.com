@@ -541,6 +541,7 @@ section#slide-2 div.big {
   section#slide-1 .bcg {
     padding-top: 35px;
     background-position: 0;
+    background-size: auto 100%;
   }
   section#slide-1 .bcg h1 {
     font-size: 85px;
