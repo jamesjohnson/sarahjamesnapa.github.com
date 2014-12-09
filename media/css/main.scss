@@ -661,11 +661,11 @@ section#slide-2 {
         padding: 10px;
         margin: 2px;
         width: 40%;
-        height: 90px;
+        height: 80px;
         vertical-align: top;
 
         h3 {
-          font-size: 16px;
+          font-size: 12px;
           a {
             span {
               display: none;
@@ -677,6 +677,13 @@ section#slide-2 {
           font-size: 10px;
           line-height: 150%;
         }
+
+        p {
+
+          a {
+            color: #5A9168;
+          }
+        }
       }
     }
   }
@@ -685,14 +692,16 @@ section#slide-2 {
 
     div.box-holder {
       width: 98%;
-      height: 550px;
+      height: auto;
+      padding-bottom: 10px;
       margin: 0 auto;
 
       div.left {
         width: 100%;
         margin: 0;
-        height: 30px;
+        height: 60px;
         padding: 0;
+        float: none;
 
         ul{
           width: 100%;
@@ -701,8 +710,8 @@ section#slide-2 {
 
           li {
             display: inline-block;
-            font-size: 16px;
-            padding: 4px;
+            font-size: 12px;
+            padding: 8px;
 
             a {
               span {
@@ -718,12 +727,23 @@ section#slide-2 {
 
       div.right {
         width: 100%;
+        float: none;
 
         div.padder {
           padding: 30px 10px;
 
+          a {
+            font-size: 10px;
+          }
+
           p {
-            font-size: 11px;
+            font-size: 10px;
+          }
+
+          ul {
+            li {
+              font-size: 10px;
+            }
           }
         }
       }

@@ -579,11 +579,11 @@ section#slide-2 div.big {
     padding: 10px;
     margin: 2px;
     width: 40%;
-    height: 90px;
+    height: 80px;
     vertical-align: top;
   }
   section#slide-3 div.left div.hotel h3 {
-    font-size: 16px;
+    font-size: 12px;
   }
   section#slide-3 div.left div.hotel h3 a span {
     display: none;
@@ -592,17 +592,22 @@ section#slide-2 div.big {
     font-size: 10px;
     line-height: 150%;
   }
+  section#slide-3 div.left div.hotel p a {
+    color: #5A9168;
+  }
 
   section#slide-4 div.box-holder {
     width: 98%;
-    height: 550px;
+    height: auto;
+    padding-bottom: 10px;
     margin: 0 auto;
   }
   section#slide-4 div.box-holder div.left {
     width: 100%;
     margin: 0;
-    height: 30px;
+    height: 60px;
     padding: 0;
+    float: none;
   }
   section#slide-4 div.box-holder div.left ul {
     width: 100%;
@@ -611,8 +616,8 @@ section#slide-2 div.big {
   }
   section#slide-4 div.box-holder div.left ul li {
     display: inline-block;
-    font-size: 16px;
-    padding: 4px;
+    font-size: 12px;
+    padding: 8px;
   }
   section#slide-4 div.box-holder div.left ul li a span {
     width: 100%;
@@ -622,12 +627,19 @@ section#slide-2 div.big {
   }
   section#slide-4 div.box-holder div.right {
     width: 100%;
+    float: none;
   }
   section#slide-4 div.box-holder div.right div.padder {
     padding: 30px 10px;
   }
+  section#slide-4 div.box-holder div.right div.padder a {
+    font-size: 10px;
+  }
   section#slide-4 div.box-holder div.right div.padder p {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  section#slide-4 div.box-holder div.right div.padder ul li {
+    font-size: 10px;
   }
 
   section#slide-5 div.box-logos {
