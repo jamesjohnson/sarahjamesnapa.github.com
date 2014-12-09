@@ -617,7 +617,7 @@ section#slide-2 div.big {
   section#slide-4 div.box-holder div.left ul li {
     display: inline-block;
     font-size: 12px;
-    padding: 8px;
+    padding: 8px 4px;
   }
   section#slide-4 div.box-holder div.left ul li a span {
     width: 100%;
