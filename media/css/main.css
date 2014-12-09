@@ -645,6 +645,6 @@ section#slide-2 div.big {
   section#slide-5 div.box-logos {
     width: auto;
     margin: 10px;
-    padding: 0;
+    padding: 10px 0;
   }
 }
